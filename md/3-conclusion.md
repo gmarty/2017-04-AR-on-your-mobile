@@ -1,8 +1,8 @@
 ## Compatibility
 
 Note:
-Doesn't work on iOS.
-Maybe use Argon4
+In theory, will work on iOS 11 currently in beta.
+Maybe use Argon4.
 
 ---
 
@@ -24,10 +24,6 @@ Will allow compiling complex lib and run them fast.
 ---
 
 AR on the web is just around the corner
-
----
-
-Let's experiment with it!
 
 ---
 

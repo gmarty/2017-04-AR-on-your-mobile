@@ -16,7 +16,7 @@ Problem, I don't have a Hololens or a Tango phone in my pocket.
 * Camera
 
 Note:
-Ambient light, Proximity sensor and NFC
+Ambient light, Proximity sensor and NFC.
 
 ---
 
@@ -61,8 +61,12 @@ CV lib in JS are easy to find. Object detection.
 
 ---
 
-#### CV lib face coordinates
+#### CV lib face detection
 
+<img src="img/face-detection.svg" style="height:50vh;"/>
+
+Note:
+For each face detected:
 * top
 * left
 * height
@@ -70,7 +74,7 @@ CV lib in JS are easy to find. Object detection.
 
 ---
 
-Convert these parameters to a 3D space
+Convert these coordinates to a 3D space
 
 ---
 
@@ -89,12 +93,13 @@ Convert to (-1, 1) range.
 <img src="img/z-axis.svg" style="height:50vh;"/>
 
 Note:
-Use `height` and `width` to estimate depth
+Use `height` and `width` to estimate depth.
 Calibration needed.
 
 ---
 
 ### A-Frame
+
 ```html
 <a-camera near="0.5" far="2.5"></a-camera>
 ```
@@ -106,6 +111,7 @@ to place objects on the scene.
 ---
 
 ### Three.JS
+
 ```javascript
 const pos = new THREE.Vector3(x, y, z).unproject(camera);
 ```

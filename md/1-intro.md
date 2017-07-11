@@ -20,7 +20,7 @@ ex <img src="img/Mozilla.svg" style="height: 1.5em; vertical-align: middle;" alt
 
 Note:
 Get an idea of the real environment.
-Positional sensors, depth sensors, camera
+Positional sensors, depth sensors, camera.
 
 ---
 
